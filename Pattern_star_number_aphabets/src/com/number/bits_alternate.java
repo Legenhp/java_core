@@ -1,0 +1,50 @@
+package com.number;
+
+public class bits_alternate {
+	
+	
+	public void bit() {
+		for(int i=1;i<5;i++) {
+			for(int j=1;j<=i;j++) {
+				if((i+j)%2==0) {
+					System.out.print(1+" ");
+				}
+				
+				else {
+					System.out.print(0+" ");
+				}
+				
+				
+			}
+			System.out.println();
+			}
+		
+			
+		}
+		
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		bits_alternate b=new bits_alternate();
+		b.bit();
+		
+	}
+
+}
+
+
+//for(int i=1;i<=5;i++) {
+//	for (int j=1;j<=i;j++) {
+//		if((i+j)%2==0) {
+//			System.out.print("1 ");
+//		}
+//		else {
+//			System.out.print("0 ");
+//		}
+//		
+//	}
+//	System.out.println();
+//}
