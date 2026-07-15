@@ -2,7 +2,7 @@ package com.recursion;
 
 public class Stricty_Inc_Array {
 	
-	
+	 
 	
 	private static boolean stricty(int [] arr,int i) {
 		
